@@ -1,0 +1,25 @@
+.task-container {
+    display: flex;
+}
+
+.task-body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    background: white;
+    z-index: 1;
+}
+
+.row-element {
+    display: flex;
+    flex-direction: column;
+    margin: 4px 15px;
+    width: calc(100% / 3);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .row-element {
+        width: 90%;
+    }
+}

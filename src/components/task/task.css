@@ -1,0 +1,47 @@
+.task-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    border: 1px solid lightgray;
+}
+
+.delete-btn-container {
+    display: block;
+}
+
+.task-info {
+    display: block;
+    max-width: 190px;
+    padding: 0 10px 10px 15px;
+}
+
+.task-content-row {
+    display: flex;
+    align-items: center;
+}
+
+.task-actions {
+    display: flex;
+}
+
+.task-actions button {
+    font-size: 14px;
+    padding: 4px 8px;
+    height: 35px;
+}
+
+.task-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.task-description {
+    font-size: 14px;
+}

@@ -1,0 +1,31 @@
+.app-header {
+  display: flex;
+  justify-content: center;
+}
+
+.background-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    background-image: url('https://www.vidyard.com/media/video-marketing-strategy-1920x1080.jpg');
+    background-size: cover; /* Розмір фонового зображення */
+    background-position: center; /* Положення фонового зображення */
+    background-repeat: no-repeat; /* Не повторювати фонове зображення */
+    background-color: rgba(255, 255, 255, 0.1); /* Колір фону з прозорістю */
+    opacity: 0.2;
+    z-index: 0;
+}
+
+.main-container {
+    z-index: 100;
+    padding: 8px 12px;
+}
+
+.main-container main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
